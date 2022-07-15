@@ -10,7 +10,24 @@ Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
 <meta property="og:image"         content="https://johnnathaniel.github.io/pexelso.jpg" />
 </head>
 <body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = "https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.0";
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your share button code -->
+<div class="fb-share-button" 
+data-href="https://www.your-domain.com/your-page.html" 
+data-layout="button_count">
+</div>
+
 <img src="https://johnnathaniel.github.io/pexelso.jpg" />
 <div>https://www.myyl.com/celeste-anderson</div>
+
 </body>
 </html>
